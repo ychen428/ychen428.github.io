@@ -2,8 +2,8 @@
 # Site Settings
 # -----------------------------------------------------------------------------
 
-name: Otilia Stretcu
-email: otiliastr@gmail.com
+name: Yuting Chen
+email: ychen428@gmail.com
 
 # footer_text: >
 #   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
@@ -16,15 +16,14 @@ baseurl:  # the subpath of your site, e.g. /blog/
 # -----------------------------------------------------------------------------
 # Social Integration
 # -----------------------------------------------------------------------------
-scholar_userid: UcT4CXoAAAAJ
-github_username: otiliastr
-linkedin_username: otiliastr
-facebook_username: otilia.stretcu
-twitter_username: otilia_stretcu
-contact_note: Feel free to drop me a line via e-mail.
+scholar_userid: 
+github_username: ychen428
+#linkedin_username: ychen428
+facebook_username: ychen428
+twitter_username: 
+contact_note: Best way to reach me is via email
 
-
-#google_analytics: UA-54519238-1
+#google_analytics:
 
 # -----------------------------------------------------------------------------
 # Blog
@@ -63,7 +62,7 @@ collections:
     output: true
     permalink: /projects/:path/
 
-news_limit: 10
+news_limit: 5
 
 # -----------------------------------------------------------------------------
 # Jekyll Settings
@@ -84,7 +83,7 @@ plugins:
 
 # Jekyll-Scholar
 scholar:
-  last_name: Stretcu
+  last_name: Chen
   style: apa
   locale: en
   sort_by: year
