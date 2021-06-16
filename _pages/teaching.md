@@ -16,7 +16,7 @@ description: classes, workshops, and teaching material
         <h5 class="font-weight-bold">Physical Chemical Principles and Applications</h5>
       </div>
       <div class="col-sm-2 text-left text-sm-right">
-        <span class="badge font-weight-bold light-green darken-1 text-uppercase align-middle"  href="https://www.cs.cmu.edu/~pradeepr/courses/701/2018-spring/" target="_blank">
+        <span class="badge font-weight-bold light-blue darken-1 text-uppercase align-middle"  href="https://www.cs.cmu.edu/~pradeepr/courses/701/2018-spring/" target="_blank">
             CHEM 230
         </span>
       </div>
@@ -39,7 +39,7 @@ description: classes, workshops, and teaching material
         <h5 class="font-weight-bold">Chemical Principles</h5>
       </div>
       <div class="col-sm-2 text-left text-sm-right">
-        <span class="badge font-weight-bold light-green darken-1 text-uppercase align-middle">
+        <span class="badge font-weight-bold light-blue darken-1 text-uppercase align-middle">
             CHEM 260
         </span>
       </div>
@@ -60,7 +60,7 @@ description: classes, workshops, and teaching material
         <h5 class="font-weight-bold">Organic Chemistry Lab</h5>
       </div>
       <div class="col-sm-2 text-left text-sm-right">
-        <span class="badge font-weight-bold light-green darken-1 text-uppercase align-middle">
+        <span class="badge font-weight-bold light-blue darken-1 text-uppercase align-middle">
             CHEM 216
         </span>
       </div>
@@ -80,7 +80,7 @@ description: classes, workshops, and teaching material
         <h5 class="font-weight-bold">Physical Chemical Principles and Applications</h5>
       </div>
       <div class="col-sm-2 text-left text-sm-right">
-        <span class="badge font-weight-bold light-green darken-1 text-uppercase align-middle"  href="https://www.cs.cmu.edu/~pradeepr/courses/701/2018-spring/" target="_blank">
+        <span class="badge font-weight-bold light-blue darken-1 text-uppercase align-middle"  href="https://www.cs.cmu.edu/~pradeepr/courses/701/2018-spring/" target="_blank">
             CHEM 230
         </span>
       </div>
@@ -100,7 +100,7 @@ description: classes, workshops, and teaching material
         <h5 class="font-weight-bold">General Chemistry Lab</h5>
       </div>
       <div class="col-sm-2 text-left text-sm-right">
-        <span class="badge font-weight-bold light-green darken-1 text-uppercase align-middle">
+        <span class="badge font-weight-bold light-blue darken-1 text-uppercase align-middle">
             CHEM 125
         </span>
       </div>
