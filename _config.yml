@@ -81,6 +81,8 @@ plugins:
   - jekyll/scholar
   - jemoji
 
+
+github: [metadata]
 # Jekyll-Scholar
 scholar:
   last_name: Chen
