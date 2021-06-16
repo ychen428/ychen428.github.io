@@ -19,7 +19,7 @@ description: <a href="https://lsa.umich.edu/chem" class="page-description" targe
 <div style="display: flex; flex-wrap: wrap;">
     <div class="text-justify p-0">
         <div class="col-xs-12 col-sm-6 p-0 pt-2 pb-sm-2 pb-4 pl-sm-4 text-center" style="float: right;">
-          <img class="profile-img img-responsive" src="{{ 'prof_pic.jpg' | prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}">
+          <img class="profile-img img-responsive" src="{{ 'penguin.png' | prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}">
         </div>
 
         <p>
@@ -27,10 +27,10 @@ description: <a href="https://lsa.umich.edu/chem" class="page-description" targe
         <p>
             My Ph.D. research focuses on developing algorithms quantum chemistry simulations. Under Construction
         <p>
-            Before I joined CMU, I graduated with an B.S. in Chemistry and a minor in Computer Science from the <a href="https://www.berkeley.edu/" target="_blank">University of California, Berkeley</a>.
+            Before I joined UMich, I graduated with an B.S. in Chemistry and a minor in Computer Science from the <a href="https://www.berkeley.edu/" target="_blank">University of California, Berkeley</a>.
             There I worked with <a href="https://mhggroupberkeley.com/" target="_blank">Martin Head-Gordon</a> and <a href="https://simons.berkeley.edu/people/alec-white" target="_blank">Alec White</a> to develop better initial guesses for SCF iterations.
         </p>
-    </div>
+  </div>
 </div>
 
 
