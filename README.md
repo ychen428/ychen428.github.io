@@ -1,6 +1,6 @@
-# Otilia Stretcu's personal webpage
+# Yuting Chen's personal webpage
 
-This is the personal website of Otilia Stretcu, which can be visualized at [https://otiliastr.github.io/](https://otiliastr.github.io/).
+This is the personal website of Yuting Chen, which can be visualized at [https://ychen428.github.io/](https://ychen428.github.io/).
 
 ## How to use this template for your website
 
