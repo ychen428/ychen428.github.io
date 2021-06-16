@@ -25,10 +25,7 @@ description: <a href="https://lsa.umich.edu/chem" class="page-description" targe
         <p>
             I am a Ph.D. student in the <a href="https://lsa.umich.edu/chem" class="page-description" target="_blank">Chemistry Department</a>  at <a href="https://umich.edu/" class="page-description" target="_blank">University of Michigan, Ann Arbor</a>, advised by <a href="https://lsa.umich.edu/chem/people/faculty/zgid.html" target="_blank">Dominika Zgid</a>.
         <p>
-            My Ph.D. research focuses on developing algorithms quantum chemistry simulations.
-            Under Construction
-            Under Construction
-            Under Construction
+            My Ph.D. research focuses on developing algorithms quantum chemistry simulations. Projects I've worked on involve handling finite size effects in Green's functions calculations and finite-temperature DFT exchange-correlation functional development via machinie learning. 
         <p>
             Before I joined UMich, I graduated with an B.S. in Chemistry and a minor in Computer Science from the <a href="https://www.berkeley.edu/" target="_blank">University of California, Berkeley</a>.
             There I worked with <a href="https://mhggroupberkeley.com/" target="_blank">Martin Head-Gordon</a> and <a href="https://simons.berkeley.edu/people/alec-white" target="_blank">Alec White</a> to develop better initial guesses for SCF iterations.
@@ -47,7 +44,7 @@ description: <a href="https://lsa.umich.edu/chem" class="page-description" targe
   {% for item in news limit: site.news_limit %}
     <div class="row p-0">
       <div class="col-sm-2 p-0">
-        <span class="badge light-green darken-1 font-weight-bold text-uppercase align-middle date ml-3">
+        <span class="badge light-blue darken-1 font-weight-bold text-uppercase align-middle date ml-3">
           {{ item.date | date: "%b %-d, %Y" }}
         </span>
       </div>
