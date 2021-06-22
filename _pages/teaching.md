@@ -21,11 +21,9 @@ description: classes, workshops, and teaching material
         </span>
       </div>
     </div>
-    <h6 class="font-italic mt-2 mt-sm-0">Spring 2019, Fall 2019: Graduate Student Instructor</h6>
+    <h6 class="font-italic mt-2 mt-sm-0">Fall 2021: Future Faculty Graduate Student Instructor</h6>
     <ul class="card-text font-weight-light list-group list-group-flush">
-      <li class="list-group-item">○ Office Hours: . </li>
-      <li class="list-group-item">○ Discussion Notes: </li>
-      <li class="list-group-item">○ Video Walkthroughs.</li>
+	<a href="/teaching/chem230" > Chem 230 Resources </a>	
     </ul>
   </div>
 </div>
