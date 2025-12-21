@@ -23,13 +23,13 @@ repository               : "ychen428.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile.jpg"
   name             : "Yuting Chen"
-  pronouns         : # example: "she/her"  
+  # pronouns         : "he/his"  
   bio              : "Visiting Assistant Professor"
   location         : "Clinton, NY"
   employer         : "Hamilton College"
-  uri              : "https://cal.com/yuting-hamilton"
+  uri              : "https://ychen428.github.io"
   email            : "ychen5@hamilton.edu" 
 
   # Academic websites
