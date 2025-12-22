@@ -1,32 +1,25 @@
-/* ==========================================================================
-   Air skin, based on the Minimal Mistakes skin
-   ========================================================================== */
+$primary-color              : #5E81AC;
+$dark-primary-color         : mix(#000, $primary-color, 20%);
+$darker-primary-color       : mix(#000, $primary-color, 40%);
+$light-primary-color        : mix(#fff, $primary-color, 70%);
 
-/* Color codes used for the theme */
-$primary-color              : #0092ca;
-$dark-primary-color         : mix(#000, $primary-color, 40%);
-$darker-primary-color       : mix(#000, $primary-color, 60%);
-$light-primary-color        : mix(#000, $primary-color, 50%);
+$background                 : #ECEFF4;
+$background-light           : #E5E9F0;
+$background-lighter         : #D8DEE9;
+$text                       : #2E3440;
+$link                       : #81A1C1;
+$link-dark                  : #88C0D0;
+$link-light                 : #5E81AC;
+$footer                     : #E5E9F0;
 
-$background                 : #eeeeee;
-$background-light           : mix(#fff, $background, 20%);
-$background-lighter         : mix(#fff, $background, 90%);
-$text                       : #222831;
-$link                       : #393e46;
-$link-dark                  : mix(#000, $link, 25%);
-$link-light                 : mix(#fff, $link, 25%);
-$footer                     : $primary-color;
+$danger-color               : #BF616A;
+$info-color                 : #5E81AC;
+$notice-color               : #81A1C1;
+$success-color              : #A3BE8C;
+$warning-color              : #D08770;
 
-/* Color codes used for the site */
-$danger-color               : #ee5f5b;
-$info-color                 : #2f7f93;
-$notice-color               : #7a8288;
-$success-color              : #62c462;
-$warning-color              : #f89406;
-
-/* Other basic settings for the template */
 $border-radius              : 4px;
-$box-shadow                 : 0 1px 1px rgba(0, 0, 0, 0.125);
+$box-shadow                 : 0 1px 1px rgba(0, 0, 0, 0.1);
 $global-transition          : all 0.2s ease-in-out;
 $masthead-height            : 70px;
 $navicon-width              : 28px;
@@ -34,22 +27,21 @@ $navicon-height             : 4px;
 $sidebar-link-max-width     : 250px;
 $sidebar-screen-min-width   : 1024px;
 
-/* Dark theme for the site */
 :root {
     --global-base-color                 : #{$background};
     --global-bg-color                   : #{$background};
     --global-footer-bg-color            : #{$footer};
     --global-border-color               : #{$light-primary-color};
     --global-dark-border-color          : #{$background-light};
-    --global-code-background-color      : #fafafa;
-    --global-code-text-color            : #{$darker-primary-color};
-    --global-fig-caption-color          : #{$light-primary-color};
+    --global-code-background-color      : #E5E9F0;
+    --global-code-text-color            : #2E3440;
+    --global-fig-caption-color          : #81A1C1;
     --global-link-color                 : #{$link};
     --global-link-color-hover           : #{$link-dark};
     --global-link-color-visited         : #{$link-light};
     --global-masthead-link-color        : #{$text};
-    --global-masthead-link-color-hover  : #{$link};
+    --global-masthead-link-color-hover  : #5E81AC;
     --global-text-color                 : #{$text};
-    --global-text-color-light           : #{$light-primary-color};
+    --global-text-color-light           : #81A1C1;
     --global-thead-color                : #{$background-lighter};
 }
