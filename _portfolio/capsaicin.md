@@ -1,6 +1,6 @@
 ---
 title: "Capsaicin"
-excerpt: "Students choose the lesser of two evils"
+excerpt: "Students choose the lesser of two sevils"
 collection: portfolio
 permalink: "/demos/capsaicin"
 ---
