@@ -1,13 +1,13 @@
 ---
 layout: page
-title: submenus
+title: courses
 nav: true
-nav_order: 8
+nav_order: 4
 dropdown: true
 children:
-  - title: bookshelf
-    permalink: /books/
+  - title: chem120
+    permalink: /chem120/
   - title: divider
-  - title: blog
-    permalink: /blog/
+  - title: chem322
+    permalink: /chem322/
 ---
