@@ -1,7 +1,7 @@
 ---
 layout: default
-permalink: /blog/
-title: blog
+permalink: /media/
+title: media
 nav: true
 nav_order: 1
 pagination:
