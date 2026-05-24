@@ -9,49 +9,42 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-media",
-          title: "media",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/media/index.html";
-          },
-        },{id: "nav-cv",
+  },{id: "nav-cv",
           title: "CV",
-          description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "nav-teaching",
-          title: "teaching",
-          description: "Course materials, schedules, and resources for classes taught.",
+        },{id: "nav-gallery",
+          title: "gallery",
+          description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/teaching/";
+            window.location.href = "/gallery/index.html";
           },
-        },{id: "nav-people",
-          title: "people",
-          description: "members of the lab or group",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/people/";
-          },
-        },{id: "dropdown-bookshelf",
-              title: "bookshelf",
+        },{id: "dropdown-chem120",
+              title: "chem120",
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "/books/";
+                window.location.href = "/chem120/";
               },
-            },{id: "dropdown-blog",
-              title: "blog",
+            },{id: "dropdown-chem322",
+              title: "chem322",
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "/blog/";
+                window.location.href = "/chem322/";
               },
-            },{id: "books-the-godfather",
+            },{id: "nav-misc",
+          title: "misc",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/misc/";
+          },
+        },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
           section: "Books",handler: () => {
