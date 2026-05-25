@@ -44,6 +44,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/misc/";
           },
+        },{id: "nav-contact",
+          title: "contact",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/contact";
+          },
         },{id: "news-honored-to-be-awarded-the-margaret-bundy-scott-teaching-excellence-fellowship-award",
           title: 'Honored to be awarded The Margaret Bundy Scott Teaching Excellence Fellowship Award',
           description: "",
