@@ -93,9 +93,24 @@ pagination:
 
 {% if post.thumbnail %}
   </div>
-  <div class="col-sm-3">
-    <img class="card-img" src="{{ post.thumbnail | relative_url }}" style="object-fit: cover; height: 90%" alt="image">
-  </div>
+<div class="col-sm-3">
+  {% if post.redirect == blank %}
+    <a href="{{ post.url | relative_url }}">
+  {% elsif post.redirect contains '://' %}
+    <a href="{{ post.redirect }}" target="_blank">
+  {% else %}
+    <a href="{{ post.redirect | relative_url }}">
+  {% endif %}
+
+      <img
+        class="card-img"
+        src="{{ post.thumbnail | relative_url }}"
+        style="object-fit: cover; height: 90%"
+        alt="image"
+      >
+
+    </a>
+</div>
 </div>
 {% endif %}
     </li>
