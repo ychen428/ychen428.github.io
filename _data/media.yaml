@@ -1,0 +1,9 @@
+- title: The Alchemist
+  type: book
+  cover: assets/img/alchemist.jpg
+  status: reading
+
+- title: Breaking Bad
+  type: show
+  cover: assets/img/breaking_bad.jpg
+  status: completed

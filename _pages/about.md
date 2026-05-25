@@ -7,12 +7,10 @@ permalink: /
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
   more_info: >
-    <p>SCCT 1063</p>
-    <p>3973 Campus Road </p>
-    <p>Clinton, NY, 13323</p>
-    <p>ychen5@hamilton.edu</p>
+    <p>Office: SCCT 1063</p>
+    <p>Email: ychen5@hamilton.edu</p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
