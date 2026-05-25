@@ -67,6 +67,7 @@ pagination:
     <li>
 
 {% if post.thumbnail %}
+
 <div class="row">
   <div class="col-sm-9">
 {% endif %}
@@ -92,6 +93,7 @@ pagination:
       </p>
 
 {% if post.thumbnail %}
+
   </div>
 <div class="col-sm-3">
   {% if post.redirect == blank %}
@@ -110,6 +112,7 @@ pagination:
       >
 
     </a>
+
 </div>
 </div>
 {% endif %}

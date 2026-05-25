@@ -6,6 +6,7 @@ nav: true
 nav_order: 5
 collection: media
 ---
+
 {% assign media = site.data.media %}
 
 <style>
@@ -45,7 +46,9 @@ figcaption {
 </style>
 
 ## Books
+
 {% assign books = media | where: "type", "book" %}
+
 <div class="media-container">
 {% for item in books %}
   <figure class="cover">
@@ -68,7 +71,9 @@ figcaption {
 </div>
 
 ## Shows / Movies
+
 {% assign shows = media | where: "type", "show" %}
+
 <div class="media-container">
 {% for item in shows %}
   <figure class="cover">
@@ -113,6 +118,7 @@ figcaption {
 {% endfor %}
 </div>
  -->
+
 ## Spotify Playlists
 
 <ul class="playlist-list">

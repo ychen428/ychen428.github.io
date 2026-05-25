@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Fire Katana Demo
-date: 2026-04-17 
+date: 2026-04-17
 description: Demonstration of solubility principles, precipitating out a gel to light a sword on fire
 thumbnail: assets/img/sword_0.jpeg
 images:

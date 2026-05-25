@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-# subtitle: Visiting Assistant Professor, <a href='#'>Hamilton College</a>. 
+# subtitle: Visiting Assistant Professor, <a href='#'>Hamilton College</a>.
 
 profile:
   align: right
@@ -26,6 +26,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi! I'm currently a Visiting Assistant Professor at Hamilton College, where I teaching General Chemistry and Physical Chemistry utilizing a flipped classroom. 
+Hi! I'm currently a Visiting Assistant Professor at Hamilton College, where I teaching General Chemistry and Physical Chemistry utilizing a flipped classroom.
 
 Previously, I received my B.S. in Chemistry and Computer Science from the University of California, Berkeley and my Ph.D. in Chemistry and Scientific Computing from the University of Michigan, Ann Arbor.

@@ -4,7 +4,7 @@ cv:
   email: ychen5@hamilton.edu
   location: Clinton, NY
   image: ""
-  summary: 
+  summary:
 
   social_networks:
     - network: X
@@ -25,9 +25,8 @@ cv:
     Education:
       - institution: University of Michigan
         location: Ann Arbor, Michigan
-        url: https://www.uzh.ch/
         area: Chemistry and Scientific Computing
-        studyType: PhD
+        studyType: Ph.D.
         start_date: 2018
         end_date: 2024
         score: ""
@@ -37,7 +36,7 @@ cv:
       - institution: University of California, Berkeley
         location: Berkeley, California
         area: Chemistry and Computer Science
-        studyType: 
+        studyType: B.S.
         start_date: 2014
         end_date: 2018
         highlights:
@@ -48,30 +47,16 @@ cv:
         location: Clinton, NY
         start_date: 2024
         end_date: Present
-        summary: 
+        summary:
         highlights:
 
     Awards:
       - title: The Margaret Bundy Scott Teaching Excellence Fellowship Award
         authors:
-        date: 
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: 
-
-    Publications:
-      - title: 
-        authors:
-        publisher: 
-        releaseDate: 
-        url: 
-        summary: 
-
-    Skills:
-      - name: 
-        level: 
-        icon: 
-        keywords: 
+        date: 05-12-2024
+        awarder: Hamilton College
+        url: https://www.hamilton.edu/news/story/teaching-awards-2026-robinson-harrison-martinie-chen
+        summary:
 
     Languages:
       - name: English
@@ -80,25 +65,7 @@ cv:
       - name: Chinese
         summary: "Native speaker"
 
-    Interests:
-      - name: 
-        icon: 
-        keywords: 
-
-    Certificates:
-      - name: 
-        date: 
-        issuer: 
-        icon: 
-
-    Projects:
-      - name: 
-        summary: 
-        highlights:
-        start_date: 
-        end_date:
-
     References:
-      - name: 
-        icon: 
-        reference: 
+      - name:
+        icon:
+        reference:
