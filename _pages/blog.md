@@ -1,7 +1,7 @@
 ---
 layout: default
-permalink: /gallery/
-title: gallery
+permalink: /blog/
+title: blog
 nav: true
 nav_order: 3
 pagination:

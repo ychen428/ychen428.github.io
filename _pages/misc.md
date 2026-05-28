@@ -7,6 +7,8 @@ nav_order: 5
 collection: media
 ---
 
+I'm not sure what his page is supposed to be. 
+
 {% assign media = site.data.media %}
 
 <style>
@@ -123,14 +125,20 @@ figcaption {
 
 <ul class="playlist-list">
   <li>
+    <a href="https://open.spotify.com/" target="_blank">
+      Fall 2026, Chem 120
+    </a>
+  </li>
+
+  <li>
     <a href="https://open.spotify.com/playlist/7dPw5BM1sWJ69LI0gAyFGZ?si=12ae74a03c994e73" target="_blank">
       Spring 2026, Chem 322
     </a>
   </li>
 
   <li>
-    <a href="https://open.spotify.com/" target="_blank">
-      Fall 2026, Chem 120
+    <a href="https://open.spotify.com/playlist/18Tdb3Az1U3u29j5RPNZ2F?si=3ad8963807804f1f" target="_blank">
+      Spring 2025, Chem 322
     </a>
   </li>
 </ul>
