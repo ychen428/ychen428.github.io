@@ -14,14 +14,14 @@ ninja.data = [{
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/cv/";
+            window.location.href = "/assets/pdf/yuting_chen_cv.pdf";
           },
-        },{id: "nav-gallery",
-          title: "gallery",
+        },{id: "nav-blog",
+          title: "blog",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/gallery/index.html";
+            window.location.href = "/blog/";
           },
         },{id: "dropdown-chem120",
               title: "chem120",
@@ -51,7 +51,10 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/contact";
           },
-        },{id: "news-honored-to-be-awarded-the-margaret-bundy-scott-teaching-excellence-fellowship-award",
+        },{id: "news-received-the-dean-s-pedagogical-development-award-for-innovation-in-general-chemistry",
+          title: 'Received the Dean’s Pedagogical Development Award for innovation in General Chemistry',
+          description: "",
+          section: "News",},{id: "news-honored-to-be-awarded-the-margaret-bundy-scott-teaching-excellence-fellowship-award",
           title: 'Honored to be awarded The Margaret Bundy Scott Teaching Excellence Fellowship Award',
           description: "",
           section: "News",},{id: "teachings-data-science-fundamentals",
