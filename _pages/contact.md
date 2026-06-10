@@ -82,7 +82,7 @@ schedule:
         location: SCCT 1063
 ---
 
-<style>
+<!-- <style>
 .contact-card {
   border: 1px solid #e5e5e5;
   border-radius: 12px;
@@ -122,3 +122,4 @@ schedule:
     <li>ychencc@umich.edu</li>
   </ul>
 </div>
+ -->

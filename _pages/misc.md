@@ -7,8 +7,9 @@ nav_order: 5
 collection: media
 ---
 
-I'm not sure what his page is supposed to be. 
+I'm not sure what this page is supposed to be. 
 
+<!-- 
 {% assign media = site.data.media %}
 
 <style>
@@ -45,9 +46,9 @@ figcaption {
 .status-paused     { background: #BA7517; color: #FAEEDA; }
 .status-dropped    { background: #A32D2D; color: #FCEBEB; }
 .status-plan       { background: #888780; color: #F1EFE8; }
-</style>
+</style> -->
 
-## Books
+<!-- ## Books
 
 {% assign books = media | where: "type", "book" %}
 
@@ -70,13 +71,13 @@ figcaption {
     {% endif %}
   </figure>
 {% endfor %}
-</div>
+</div> -->
 
-## Shows / Movies
+<!-- ## Shows / Movies
 
 {% assign shows = media | where: "type", "show" %}
-
-<div class="media-container">
+ -->
+<!-- <div class="media-container">
 {% for item in shows %}
   <figure class="cover">
     {% if item.cover %}
@@ -95,7 +96,7 @@ figcaption {
     {% endif %}
   </figure>
 {% endfor %}
-</div>
+</div> -->
 
 <!-- ## Movies
 {% assign movies = media | where: "type", "movie" %}
