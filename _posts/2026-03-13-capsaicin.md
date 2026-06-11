@@ -3,7 +3,7 @@ layout: post
 title: Capsaicin Demo
 date: 2026-03-13
 description: Demonstration of hydrophilicity through capsaicin
-thumbnail: 
+thumbnail:
 images:
   lightbox2: true
   photoswipe: true
@@ -12,6 +12,7 @@ images:
 ---
 
 # Videos
+
 <div style="display: flex; align-items: flex-start; gap: 24px;">
   <div style="flex: 0 0 auto; max-height: 400px; overflow: hidden;">
     <video controls style="max-height: 400px; width: auto; display: block;">

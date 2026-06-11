@@ -7,9 +7,9 @@ nav_order: 5
 collection: media
 ---
 
-I'm not sure what this page is supposed to be. 
+I'm not sure what this page is supposed to be.
 
-<!-- 
+<!--
 {% assign media = site.data.media %}
 
 <style>
