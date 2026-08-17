@@ -2,31 +2,27 @@
   .schedule {
     overflow-x: scroll;
     position: relative;
-    border: 1px solid #ddd;
+    border: 1px solid var(--global-divider-color);
     border-radius: 12px;
     padding: 1rem;
-    background: white;
+    background: var(--global-card-bg-color, var(--global-bg-color));
   }
-
   .schedule li::before {
     display: none;
   }
-
   .schedule ul.schedule-timeline,
   .schedule ul.schedule-group,
   .schedule ul.schedule-events {
     margin-top: 0;
     padding-left: 0;
   }
-
   .schedule ul.schedule-timeline {
     margin: 40px auto 0;
     position: absolute;
     width: 100%;
   }
-
   .schedule .schedule-time {
-    color: #999;
+    color: var(--global-text-color-light, var(--global-text-color));
     height: 40px;
     margin: 0;
     padding: 0.5rem;
@@ -34,9 +30,8 @@
     font-size: 0.8rem;
     list-style: none;
   }
-
   .schedule .schedule-time::after {
-    background-color: #e5e5e5;
+    background-color: var(--global-divider-color);
     content: "";
     height: 1px;
     left: 0;
@@ -44,25 +39,21 @@
     top: 0;
     width: 100%;
   }
-
   .schedule .schedule-group {
     display: flex;
     margin-bottom: 0;
     position: relative;
   }
-
   .schedule .schedule-day {
-    border-left: 1px solid #ddd;
+    border-left: 1px solid var(--global-divider-color);
     flex: 1 0 0;
     margin: 0;
     min-width: 140px;
     list-style: none;
   }
-
   .schedule .schedule-day:first-of-type {
     border-left: 0;
   }
-
   .schedule h2.schedule-header {
     align-items: center;
     display: flex;
@@ -70,14 +61,13 @@
     height: 40px;
     justify-content: center;
     margin: 0;
+    color: var(--global-text-color);
   }
-
   .schedule .schedule-events {
     display: flex;
     padding: 0;
     position: relative;
   }
-
   .schedule .schedule-event {
     border-radius: 8px;
     color: white;
@@ -90,69 +80,25 @@
     left: 4px;
     box-sizing: border-box;
     overflow: hidden;
-
     box-shadow:
-      0 10px 20px rgba(0, 0, 0, 0.1),
+      0 10px 20px rgba(0, 0, 0, 0.2),
       inset 0 -3px 0 rgba(0, 0, 0, 0.2);
   }
-
   .schedule .schedule-event .name {
     font-weight: 700;
     font-size: 0.95rem;
   }
-
   .schedule .schedule-event .time,
   .schedule .schedule-event .location {
     font-size: 0.8rem;
   }
-
   .schedule .schedule-event.lecture {
     background-color: #444;
   }
-
   .schedule .schedule-event.lab {
     background-color: #7c3aed;
   }
-
   .schedule .schedule-event.office-hours {
     background-color: #2563eb;
   }
 </style>
-
-{% assign start_time = page.timeline | first %} {% capture offset %}{% include minutes.liquid time=start_time %}{% endcapture %}
-
-<div class="schedule">
-  <ul class="schedule-timeline">
-    {% for time in page.timeline %}
-    <li class="schedule-time">{{ time }}</li>
-    {% endfor %}
-  </ul>
-
-  <ul class="schedule-group">
-    {% for day in page.schedule %}
-    <li class="schedule-day">
-      <h2 class="schedule-header">{{ day.name }}</h2>
-
-      {% if day.events %}
-      <ul class="schedule-events" style="height: {{ page.timeline | size | times: 40 }}px">
-        {% for event in day.events %} {% capture start %} {% include minutes.liquid time=event.start %} {% endcapture %} {% capture end %} {% include
-        minutes.liquid time=event.end %} {% endcapture %} {% assign top = start | minus: offset | times: 40 | divided_by: 30 %} {% assign height = end
-        | minus: start | times: 40 | divided_by: 30 %}
-
-        <li class="schedule-event {{ event.name | slugify }}" style="top: {{ top }}px; height: {{ height }}px;">
-          <div class="name">{{ event.name }}</div>
-
-          <div class="time">{{ event.start }}–{{ event.end }}</div>
-
-          {% if event.location %}
-          <div class="location">{{ event.location }}</div>
-          {% endif %}
-        </li>
-
-        {% endfor %}
-      </ul>
-      {% endif %}
-    </li>
-    {% endfor %}
-  </ul>
-</div>
